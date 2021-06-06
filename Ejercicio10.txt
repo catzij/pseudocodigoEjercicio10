@@ -1,0 +1,25 @@
+inicio
+	var suma;
+	var numero;
+	var seis;
+	var rango;
+
+	mientras suma < 1000
+	  mostrar "ingrese numero"
+	  leer numero;
+	  suma = suma +numero;
+	  
+	  si numero %6==0{
+	    seis ++
+	  }
+	  si contrario numero >=1 y numero<=10{
+	    rango ++
+	  }
+	  fin si
+
+	fin mientras
+
+	mostrar "la suma de numeros ingresados a superado los 1000 y es "+suma
+	mostrar "los numeros multiplos de 6 son "+seis
+	mostrar "los numeros en el rango de 1 y 10 son"+rango
+fin
